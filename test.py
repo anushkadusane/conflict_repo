@@ -9,6 +9,7 @@ def CheckCurrentDate(self, dtvalue):
                 inputdtobj = datetime.date(int(inputdtsplit[2]), int(inputdtsplit[0]), int(inputdtsplit[1]))
                 list1 = []
             else:
+                print("hellllllllllllo")
                 inputdtobj = datetime.date(int(inputdt[:4]), int(inputdt[4:6]), int(inputdt[6:]))
             if ( crrdtobj < inputdtobj ):
                     return False
