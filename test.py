@@ -1,6 +1,8 @@
 def CheckCurrentDate(self, dtvalue):
     if dtvalue != None and dtvalue.lower() != 'none' and dtvalue != '' :
             print('1')
+            print('*')
+            print('**')
             currentdt = str(datetime.datetime.now()).split(" ")[0].split("-")
             crrdtobj = datetime.date(int(currentdt[0]), int(currentdt[1]), int(currentdt[2]))
             inputdt = str(dtvalue)
