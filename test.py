@@ -28,6 +28,7 @@ def CheckCurrentDate(self, dtvalue):
 def CheckDate(self, fromdt, todt):
     if len(fromdt) == 8 and len(todt) == 8 and fromdt.isdigit() and todt.isdigit():
             print('600000000000000000')
+            print('66666666666666666666666666666666')
             frmyear = int(fromdt[:4])
             toyear = int(todt[:4])
             frmnth = int(fromdt[4:6])
